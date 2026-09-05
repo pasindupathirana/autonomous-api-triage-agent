@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2026-09-05T14:15:00Z",
+    "service": "payment-gateway",
+    "status_code": 200,
+    "latency_ms": 120,
+    "message": "Payment intent processed successfully"
+  },
+  {
+    "timestamp": "2026-09-05T14:18:22Z",
+    "service": "user-auth",
+    "status_code": 401,
+    "latency_ms": 45,
+    "message": "JWT token signature expired or invalid issuer"
+  },
+  {
+    "timestamp": "2026-09-05T14:20:05Z",
+    "service": "payment-gateway",
+    "status_code": 502,
+    "latency_ms": 5040,
+    "message": "Bad Gateway: Upstream connection timeout to core-banking backend"
+  },
+  {
+    "timestamp": "2026-09-05T14:21:10Z",
+    "service": "payment-gateway",
+    "status_code": 429,
+    "latency_ms": 30,
+    "message": "Rate limit exceeded: Client org-990 exceeds 500 req/sec quota on WSO2 Gateway"
+  },
+  {
+    "timestamp": "2026-09-05T14:22:45Z",
+    "service": "order-api",
+    "status_code": 200,
+    "latency_ms": 190,
+    "message": "Order created"
+  }
+]
